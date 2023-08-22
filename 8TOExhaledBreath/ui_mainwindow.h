@@ -374,7 +374,7 @@ public:
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1261, 23));
+        menuBar->setGeometry(QRect(0, 0, 1261, 26));
         menu = new QMenu(menuBar);
         menu->setObjectName(QString::fromUtf8("menu"));
         MainWindow->setMenuBar(menuBar);
@@ -437,7 +437,7 @@ public:
         checkBox_17->setText(QCoreApplication::translate("MainWindow", "ALL", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "\346\234\200\345\244\247\345\200\274", nullptr));
         label_9->setText(QCoreApplication::translate("MainWindow", "k\316\251", nullptr));
-        pushSendMax->setText(QCoreApplication::translate("MainWindow", "\345\217\221\351\200\201", nullptr));
+        pushSendMax->setText(QCoreApplication::translate("MainWindow", "SEND", nullptr));
         label_5->setText(QCoreApplication::translate("MainWindow", "k\316\251", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "\346\234\200\345\260\217\345\200\274", nullptr));
         linemin->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
@@ -461,3 +461,4 @@ namespace Ui {
 QT_END_NAMESPACE
 
 #endif // UI_MAINWINDOW_H
+// UI_MAINWINDOW_H

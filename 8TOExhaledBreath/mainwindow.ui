@@ -770,7 +770,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>发送</string>
+     <string>SEND</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -1044,7 +1044,7 @@
      <x>0</x>
      <y>0</y>
      <width>1261</width>
-     <height>23</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">

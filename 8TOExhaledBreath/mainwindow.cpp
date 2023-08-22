@@ -206,7 +206,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->checkBox_7->setStyleSheet("QCheckBox{color:rgb(0, 0, 0)}");
     ui->checkBox_8->setStyleSheet("QCheckBox{color:rgb(125, 125, 0)}");
     /*****************设置标题和图标***********************/
-    setWindowTitle(u8"肺癌辅助诊断");
+    setWindowTitle(u8"肺癌辅助");
     /**********************新建子窗口************************/
     temperature= new Temperature(this);
     temperature->close();
